@@ -12,6 +12,6 @@ int main()
         cout << endl;
     }
 
-    system("pause");
+    system("pause lqq");
     return 0;
 }
