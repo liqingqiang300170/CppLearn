@@ -12,7 +12,7 @@ int main()
         cout << endl;
     }
 
-    system("pause");
+    system("pause 100s");
 
     return 0;
 }
