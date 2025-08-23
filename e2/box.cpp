@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Shape
+class Box
 {
     public:
         double length;   // 长度
@@ -15,11 +15,6 @@ class Shape
         double calculateVolume();
         double s;
     
-
-};
-
-class Box :Shape{
-    double calculateS();
 
 };
 // 成员函数定义
@@ -73,7 +68,7 @@ int main( )
     Box box4;
     box4.set(3.0, 4.0, 5.0);
     // double vol = box4.calculateVolume();
-    cout << box4.s << endl;
+    // cout << box4.s << endl;
     
     return 0;
     }
